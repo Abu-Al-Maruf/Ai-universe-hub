@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hub</title>
+    <!-- Daisy ui and tailwind link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="max-w-[1440px] mx-auto flex flex-col justify-center items-center p-10">
+        <h1 class="font-semibold text-3xl text-black">AI Universe Hub</h1>
+        <button class="bg-[#EB5757] rounded-2xl py-3 px-6 text-lg text-white mt-4 hover:text-slate-200 font-semibold hover:scale-[.98] transition-all ">Sort By Date</button>
+    </header>
+
+    <main class="max-w-[1440px] mx-auto px-10 pb-10">
+
+        <section class="box-container grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+
+            <div class="border border-[#1111111A] p-6 rounded-2xl">
+                <img src="./img/chatgpt.png">
+
+                <div>
+                    <h2 class="font-semibold text-black text-2xl mt-6">Features</h2>
+                    <ol class="list-decimal text-[#585858] font-normal text-base ml-5 mt-6">
+                        <li>Natural language processing</li>
+                        <li>Contextual understanding</li>
+                        <li>Text generation</li>
+                    </ol>
+                </div>
+                <hr class="text-[#11111133] mt-6">
+                <div>
+                    <h2 class="font-semibold text-black text-2xl mt-6">ChatGPT</h2>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center text-[#585858] font-normal text-base">
+                            <img src="./img/calendar.png">
+                            <p class="ml-2">11/01/2022</p>
+                        </div>
+                        <a href="#" class="bg-[#f5e8e8] hover:bg-[#e6b9b9] p-3 rounded-full">
+                            <img src="./img/right-arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        
+
+
+        </section>
+
+    </main>
+    
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
